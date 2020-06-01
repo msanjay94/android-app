@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="service_image">250dp</dimen>
+    <dimen name="textSize">18dp</dimen>
+    <dimen name="padding">10dp</dimen>
+</resources>

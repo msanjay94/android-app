@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "502091636433",
+    "firebase_url": "https://service-genie-dal.firebaseio.com",
+    "project_id": "service-genie-dal",
+    "storage_bucket": "service-genie-dal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502091636433:android:b2d9e5e5f3487caaedaff0",
+        "android_client_info": {
+          "package_name": "com.dal.mc.servicegenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502091636433-c2pj5pn5js4i3s71ltsam3o0qeq61rt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dal.mc.servicegenie",
+            "certificate_hash": "9675e14816d153dbe18923316a14976170f8c28b"
+          }
+        },
+        {
+          "client_id": "502091636433-8nn74j1afmi5j9a61dn95aem9e6p7mk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcndsAtHWv9KTCHr6RyB5R7maqh4mdsgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502091636433-8nn74j1afmi5j9a61dn95aem9e6p7mk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

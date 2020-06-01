@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Service Genie</string>
+    <string name="title_activity_home">Client Home</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_profile_t">Profile</string>
+    <string name="title_activity_email_verification">Email Verification</string>
+    <string name="title_activity_phone_verification">Phone Verification</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_profile">activity_profile</string>
+
+
+    <string name="add_more_Services">Not Listed? Add here</string>
+    <!-- Login Activity - Start -->
+
+    <string name="activity_login_txt_signup"><u>Don\'t have an account? Sign Up</u></string>
+    <string name="activity_login_txt_forgot_password"><u>Forgot password</u></string>
+    <string name="activity_login_email_hint">Email ID</string>
+    <string name="activity_login_password_hint">Password</string>
+    <string name="activity_login_btn_signin">Sign In</string>
+
+    <!-- Login Activity - End -->
+
+    <!-- SignUp Activity - Start -->
+
+    <string name="activity_signup_txt_signin"><u>Already have an account? Sign In</u></string>
+    <string name="activity_signup_first_name_hint">First Name</string>
+    <string name="activity_signup_last_name_hint">Last name</string>
+    <string name="activity_signup_phone_hint">Phone - XXXXXXXXXX</string>
+    <string name="activity_signup_address1_hint">Street address</string>
+    <string name="activity_signup_address2_hint">Unit number, Locality</string>
+    <string name="activity_signup_city_hint">City</string>
+    <string name="activity_signup_country_val">Canada</string>
+    <string name="activity_signup_postalcode_hint">Postal Code</string>
+    <string name="activity_signup_email_hint">Email ID ( use dal.ca email )</string>
+    <string name="activity_signup_password_hint">Password</string>
+    <string name="activity_signup_confirm_password_hint">Confirm Password</string>
+    <string name="activity_signup_btn_signup">Sign Up</string>
+    <string name="activity_signup_password_rules">
+        Password must contain:\n
+        - 1 Lowercase letter\n
+        - 1 Uppercase letter\n
+        - 1 Number\n
+        - 1 Special character (! @ # $ % ^ &amp; * - _ = +)\n
+        - 8 Characters
+    </string>
+
+    <string-array name="activity_signup_provinces">
+        <item>Province</item>
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Nova Scotia</item>
+        <item>Nunavut</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon</item>
+    </string-array>
+
+    <!-- SignUp Activity - End -->
+
+    <!-- Email Verification Activity - Start -->
+
+    <string name="activity_email_verify_txt">
+        Email verification pending. Please check your email.
+    </string>
+    <string name="activity_email_verify_send_email">
+        Didn\'t receive an email? <u>Click here to resend email</u>
+    </string>
+
+    <!-- Email Verification Activity - End -->
+
+    <!-- Phone Verification Activity - Start -->
+
+    <string name="activity_phone_verify_country_code">+1</string>
+    <string name="activity_phone_verify_phone_hint">XXX XXX XXXX</string>
+    <string name="activity_phone_verify_otp_hint">Enter OTP here</string>
+    <string name="activity_phone_verify_send_code">Send Code</string>
+    <string name="activity_phone_verify_resend_code">Resend Code</string>
+    <string name="activity_phone_verify_verify_btn">Verify Code</string>
+
+    <!-- Phone Verification Activity - End -->
+
+    <!-- Profile Activity - Start -->
+
+    <string name="activity_profile_signout">Sign Out</string>
+    <string name="activity_profile_delete_user">Delete Account</string>
+    <string name="activity_profile_change_password">Change Password</string>
+
+    <!-- Profile Activity - End-->
+
+    <!-- Change password Activity - Start -->
+
+    <string name="activity_change_password_old_pwd_hint">Current Password</string>
+    <string name="activity_change_password_new_pwd_hint">New Password</string>
+    <string name="activity_change_password_confirm_pwd_hint">Confirm Password</string>
+    <string name="activity_change_password_update_pwd_hint">Update Password</string>
+
+    <!-- Change password Activity - End-->
+    <!-- Add more services activity Start -->
+    <string name="add_service_title">Request a new Service</string>
+    <string name="add_service_userName">Name</string>
+    <string name="add_service_userEmailID">Email ID</string>
+    <string name="add_service_serviceNm">New Service</string>
+    <string name="add_service_Comment">Comment</string>
+    <string name="add_service_submit_Btn">Submit</string>
+    <!--Add more services activity End-->
+    <string name="activity_help_text">If you have any feedback/comments or want to report a problem please contact us.</string>
+</resources>

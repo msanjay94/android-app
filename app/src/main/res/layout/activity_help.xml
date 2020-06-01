@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    tools:context=".activity_help">
+
+    <TextView
+        android:id="@+id/activity_help_txt"
+        android:textSize="10pt"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/activity_help_text"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_help_txt"
+        android:gravity="center"
+        android:padding="@dimen/fab_margin">
+
+        <Button
+            android:id="@+id/activity_help_call"
+            android:drawableLeft="@drawable/ic_call_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/followingBg"
+            android:text="Call" />
+
+        <Button
+            android:id="@+id/activity_help_email"
+            android:drawableLeft="@drawable/ic_email_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/followingBg"
+            android:layout_marginLeft="60dp"
+            android:text="Email" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigationView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="?android:attr/windowBackground" />
+</RelativeLayout>
